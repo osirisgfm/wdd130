@@ -6,7 +6,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / .2); /* 1️⃣ */
+    border: 1px solid rgb(0 0 0 / .2); /* 1️ */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -14,13 +14,14 @@ aside {
 }
 
 aside img {
-    width: 100%;
+    width: 200%;
     height: auto;
 }
 
 main img {
     width: 100%;
     height: auto;
+    border: 1px solid black
 }
 
 main p {
@@ -36,8 +37,10 @@ nav a {
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: rgb(3, 3, 10);
+
 }
 image {
     width: 150px;
@@ -46,8 +49,9 @@ image {
     padding: 2px;
     box-shadow: 10px 0 150px rgb(1, 1, 1);
 }
+
 p {
-    padding: 0;
+    padding: 0.0;
 }
 
 footer {
