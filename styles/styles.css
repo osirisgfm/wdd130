@@ -23,7 +23,7 @@ main img {
     height: auto;
     border:#333;
     padding: 10px;
-    box-shadow: black;
+    box-shadow: greenyellow;
 }
 
 main p {
