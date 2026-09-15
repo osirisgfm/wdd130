@@ -1,5 +1,5 @@
 main {
-    width: 840px;
+   max-width: 840px;
     margin: 1rem;
 }
 
@@ -14,14 +14,16 @@ aside {
 }
 
 aside img {
-    width: 200%;
+    width: 200px;
     height: auto;
 }
 
 main img {
     width: 100%;
     height: auto;
-    border: 1px solid black
+    border:#333
+    padding: 10px
+    box-shadow: 10px  
 }
 
 main p {
