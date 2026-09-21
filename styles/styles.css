@@ -82,6 +82,7 @@ main p {
     background-color: rgb(215, 212, 208);
     color: rgb(22, 44, 48);
     text-align: left;
+    position: relative;
 
 }
 
