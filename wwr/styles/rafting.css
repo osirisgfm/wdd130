@@ -13,7 +13,7 @@
 
 header {
     background-color: var(--accent2-color);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 * {
@@ -24,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
     background-color: #fff;
 }
 
@@ -68,7 +68,12 @@ p {
     height: auto;
 }
 
-h1 {
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 840px;
@@ -88,21 +93,4 @@ h2 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent2-color);
-}
-
-h3 {
-    position: absolute;
-    top: 130%;
-    width: 800px;
-    padding: 10px;
-    border: 10px;
-    margin: 5px;
-    text-align: center;
-    opacity: 0.8;
-    background-color: var(--accent2-color);
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
 }
