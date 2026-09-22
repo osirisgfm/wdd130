@@ -77,9 +77,9 @@ p {
 
 .hero article {
     position: absolute;
-    box-orient: 20px;
-    left: 20px;
-    right: 20px;
+    top: 250px;
+    left: 50px;
+    right: 50px;
     padding: 16px;
     text-align: center;
     opacity: 0.8;
@@ -88,11 +88,16 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
-    bottom: 50%;
-    width: 100px;
-    padding: 16px;
+    bottom: 170px;
+    width: 500px;
+    height: auto;
+    left: 100px;
+    margin-bottom: 200px;
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent2-color);
+}
+
+section {
+    text-align: center;
 }
