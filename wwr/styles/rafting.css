@@ -71,25 +71,27 @@ p {
 .hero article img {
     float: right;
     width: 125px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-.hero h1 {
+.hero article {
     position: absolute;
-    top: 20px;
-    width: 840px;
+    box-orient: 20px;
+    left: 20px;
+    right: 20px;
     padding: 16px;
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent2-color);
 }
 
-h2 {
+.hero h1 {
     position: absolute;
-    top: 113%;
-    width: 800px;
-    padding: 10px;
-    border: 10px;
-    margin: 5px;
+    top: 20px;
+    bottom: 50%;
+    width: 100px;
+    padding: 16px;
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent2-color);
