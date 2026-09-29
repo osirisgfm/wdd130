@@ -12,8 +12,41 @@
 }
 
 header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
     background-color: var(--accent2-color);
     color: var(--secondary-color);
+    padding: 10px;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+    padding: 8px 12px;
 }
 
 * {
@@ -35,18 +68,36 @@ footer {
     margin: 0 auto;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent2-color);
+    padding: 16px;
+    margin-top: 32px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
 
-nav,
+/* Separate the "nav" and "p"elements to provide more control and avoid mix with errors*/
 section,
-article,
-p {
+article {
     margin: 16px;
     padding: 8px;
+}
+
+p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 12px;
 }
 
 .socialmedia a {
@@ -100,4 +151,62 @@ p {
 
 section {
     text-align: center;
+}
+
+.history {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.history h2 {
+    margin-bottom: 16px;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.adventures {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.adventures h2 {
+    margin-bottom: 16px;
+}
+
+.adventures-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.adventures-gallery {
+    margin: 0;
+    padding: 0;
+}
+
+.adventures-gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.adventures-gallery figcaption {
+    font-size: .85rem;
+    font-weight: bold;
+    color: var(--accent1-color);
+    margin-top: 6px;
 }
