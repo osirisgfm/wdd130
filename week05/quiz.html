@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>✅Basic HTML Quiz Form</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1">1. What if you is your favorite fruit?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item box">
+                <label for="q2">2. Describe what kind of toppings would you like on your
+                    smoothie:</label>
+                <textarea type="text" id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item box">
+                <label for="q3">3. What kind of milk would you prefer in your beverage?</label>
+                <select type="text" id="q3" name="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="a">A. Regular Milk</option>
+                    <option value="b">B. Light Milk</option>
+                    <option value="c">C. Almond Milk</option>
+                    <option value="d">D. Coconut Milk</option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q4">4. What is your expected price to pay for a
+                    Smoothie?</label>
+                <code class="box"> $2.50usd / $3.50usd / $4.50usd</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit your answer</button>
+        </form>
+    </main>
+</body>
+
+</html>
